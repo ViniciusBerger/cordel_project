@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* Passion One*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+/* Sriracha */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap'); 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "Passion one", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: white;
+
+}
+
+p {
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+h1#subtitulo {
+    margin: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: black;
+    margin: -23px 0px 0px 0px;
+    padding: 20px
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.678);
+}
+
+main > section > p {
+    font-size: larger;
+    font-family: "sriracha";
+}
+
+
+.estrofe {
+    padding:50px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.726);
+    
+}
+
+#s2 {
+    position: relative;
+    background: black url(imagens/background001.jpg) 100% 100% no-repeat fixed;
+    background-size: cover;
+    padding: 70px;
+    padding-bottom: 90px;
+    height: 400px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#s2 > p {
+    padding: 30px;
+    position:absolute;
+    background-color: rgba(128, 128, 128, 0.486);
+    border-radius: 5px;
+    font-size: x-large;
+
+    left: -1%;
+    top: 4%;
+}
+
+
+#s4 {
+    position: relative;
+    background: black url(imagens/background002.jpg) 100% 100% no-repeat fixed;
+    height: 400px;
+
+}
+
+#s4 > p {
+    padding: 30px;
+    position:absolute;
+    background-color: rgba(128, 128, 128, 0.486);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: x-large;
+
+    left: -1%;
+    top: 4%;
+
+}
+
+#rodape {
+    background-color: black;
+    font-family: "Passion one", sans-serif;
+    text-align: center;
+    color: black;
+    padding: 3px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.726);
+}
+
+#rodape > p {
+    margin: 0;
+    color: white;
+}
+
+#rodape > a {
+    color: white;
+    padding-right: 7px;
+}
